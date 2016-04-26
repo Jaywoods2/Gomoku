@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  	android:orientation="vertical"
+  	android:id="@+id/select_dslayout"
+  	android:clipChildren="false"
+	android:layerType="software"
+  	android:background="@drawable/bg_default"
+  	 >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/selectds" 
+        android:textColor="#D8A331"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        />
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/select_dsvp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="360dp"
+        android:clipChildren="false"      
+        />
+
+</LinearLayout>
